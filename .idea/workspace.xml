@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29d998a0-5b54-4571-85a4-5aeb867b208b" name="Changes" comment="Chapter 1 complete - Podstawy testowania">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/learning/javastart/Chapter2/JUnitTestCycleTest.java" afterDir="false" />
+    <list default="true" id="29d998a0-5b54-4571-85a4-5aeb867b208b" name="Changes" comment="Chapter 3 complete - Asercje">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/learning/javastart/Chapter4/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/learning/javastart/Chapter4/FibonaciiGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/learning/javastart/Chapter4/ParamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -33,75 +37,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.learning.javastart.Chapter4" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.learning.javastart.Chapter3" />
       <recent name="pl.learning.javastart.Chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JUnitTestCycleTest">
-    <configuration name="CalculatorTest.shouldAdd1To1AndReturn2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParamTest.shouldBeFibonnaciNumbers">
+    <configuration name="JUnit5AssertionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestingLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.learning.javastart.Chapter1.*" />
+          <option name="PATTERN" value="pl.learning.javastart.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter1" />
-      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter1.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldAdd1To1AndReturn2" />
+      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter3.JUnit5AssertionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit5AssertionTest.shouldNotBePrimeFor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTestingLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.learning.javastart.Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter3.JUnit5AssertionTest" />
+      <option name="METHOD_NAME" value="shouldNotBePrimeFor1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalendarTest.shouldMonth1From2000Have31Days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JUnit5AssertionTest.shouldReturnSameObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestingLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.learning.javastart.Chapter1.ex1.*" />
+          <option name="PATTERN" value="pl.learning.javastart.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter1.ex1" />
-      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter1.ex1.CalendarTest" />
-      <option name="METHOD_NAME" value="shouldMonth1From2000Have31Days" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalendarTest.shouldMonth2From2100Have28Days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTestingLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.learning.javastart.Chapter1.ex1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter1.ex1" />
-      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter1.ex1.CalendarTest" />
-      <option name="METHOD_NAME" value="shouldMonth2From2100Have28Days" />
+      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter3.JUnit5AssertionTest" />
+      <option name="METHOD_NAME" value="shouldReturnSameObjects" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,17 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JUnitTestCycleTest.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParamTest.shouldBeFibonnaciNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestingLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.learning.javastart.Chapter2.*" />
+          <option name="PATTERN" value="pl.learning.javastart.Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter2.JUnitTestCycleTest" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="PACKAGE_NAME" value="pl.learning.javastart.Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="pl.learning.javastart.Chapter4.ParamTest" />
+      <option name="METHOD_NAME" value="shouldBeFibonnaciNumbers(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParamTest.shouldBeFibonnaciNumbers" />
+        <item itemvalue="JUnit.JUnit5AssertionTest.shouldNotBePrimeFor1" />
+        <item itemvalue="JUnit.JUnit5AssertionTest" />
+        <item itemvalue="JUnit.JUnit5AssertionTest.shouldReturnSameObjects" />
         <item itemvalue="JUnit.JUnitTestCycleTest" />
-        <item itemvalue="JUnit.JUnitTestCycleTest.test12" />
-        <item itemvalue="JUnit.CalendarTest.shouldMonth2From2100Have28Days" />
-        <item itemvalue="JUnit.CalendarTest.shouldMonth1From2000Have31Days" />
-        <item itemvalue="JUnit.CalculatorTest.shouldAdd1To1AndReturn2" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697531339415</updated>
       <workItem from="1697531340404" duration="2327000" />
-      <workItem from="1697534168564" duration="945000" />
+      <workItem from="1697534168564" duration="8254000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter 1 complete - Podstawy testowania">
       <option name="closed" value="true" />
@@ -167,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697533368747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter 2 complete - Nazewnictwo i organizacja testów">
+      <option name="closed" value="true" />
+      <created>1697536588121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697536588121</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Chapter 3 complete - Asercje">
+      <option name="closed" value="true" />
+      <created>1697543649706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697543649706</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +211,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 1 complete - Podstawy testowania" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 1 complete - Podstawy testowania" />
+    <MESSAGE value="Chapter 2 complete - Nazewnictwo i organizacja testów" />
+    <MESSAGE value="Chapter 3 complete - Asercje" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 complete - Asercje" />
   </component>
 </project>
